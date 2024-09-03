@@ -2,7 +2,7 @@
 API_ID = ''
 API_HASH = ''
 
-REF_LINK = 'https://t.me/duckscoop_bot/app?startapp=4g6MRjQJBj'
+REF_LINK = 'https://t.me/duckscoop_bot/app?startapp=roFwKe4Geo'
 
 DELAYS = {
     'ACCOUNT': [5, 15],  # delay between connections to accounts (the more accounts, the longer the delay)
