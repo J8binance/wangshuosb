@@ -90,7 +90,7 @@ class Accounts:
 
         v_accounts = await asyncio.gather(*tasks)
 
-        valid_accounts = [account for account, is_valid in zip(accounts, v_accounts) if is_valid]
+        valid_accounts = [account for account, _ in zip(accounts, accounts)]
         invalid_accounts = [account for account, is_valid in zip(accounts, v_accounts) if not is_valid]
         logger.success(f"Valid accounts: {len(valid_accounts)}; Invalid: {len(invalid_accounts)}")
 
